@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/xiaomi/wt88047_64" name="mihirshah006/android_device_wt88047_64" remote="github" revision="n64" />
-  <project path="vendor/xiaomi" name="mihirshah006/proprietary_vendor_xiaomi" remote="github" revision="n64" />
-  <project path="kernel/xiaomi/msmmsmmsmmsm8916" name="redmi2/kernel" remote="github" revision="n64" />
+  <project path="device/wingtech/wt88047" name="nicknitewolf/android_device_wingtech_wt88047" remote="github" revision="lineage-15.0" />
+  <project path="vendor/vendor" name="nicknitewolf/proprietary_vendor_wingtech" remote="github" revision="lineage-15.0" />
+  <project path="kernel/wingtech/msm8916" name="nicknitewolf/android_kernel_wingtech_msm8916" remote="github" revision="lineage-15.0" />
 </manifest>
