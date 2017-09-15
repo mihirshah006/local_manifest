@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/xiaomi/wt88047_64" name="mihirshah006/android_device_wt88047_64" remote="github" revision="n64" />
-  <project path="vendor/xiaomi" name="mihirshah006/proprietary_vendor_xiaomi" remote="github" revision="n64" />
-  <project path="kernel/xiaomi/msmmsmmsmmsm8916" name="redmi2/kernel" remote="github" revision="n64" />
+    
+    <!-- device tree -->	
+    <project path="device/wingtech/wt88047" name="8916Devs/android_device_wingtech_wt88047" remote="github" revision="lineage-15.0" />
+    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="lineage-15.0" />
+    <project path="device/cyanogen/msm8916-common" name="8916Devs/android_device_cyanogen_msm8916-common" remote="github" revision="lineage-15.0" />
+    <!-- kernel -->
+    <project path="kernel/wingtech/msm8916" name="8916Devs/android_kernel_wingtech_msm8916" remote="github" revision="lineage-15.0" />
+    <!-- vendor -->
+    <project path="vendor/wingtech" name="8916Devs/proprietary_vendor_wingtech" remote="github" revision="lineage-15.0" />
+
 </manifest>
